@@ -41,7 +41,7 @@ class RouteController
 
 
         if ($path === PATH) {
-            $this->routes =settings::get('routes');
+            $this->routes = settings::get('routes');
 
             if (!$this->routes) {
                 throw new RouteException('Сайт на обслуживании');

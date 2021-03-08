@@ -10,16 +10,16 @@ class ShopSettings
     private $baseSettings;
 
     private $routes = [
-        'admin' => [
-            'name' => 'sudo'
-        ],
-        'vasya' => [
-            'name' => 5
+        'plugins' => [
+            'dir' => false,
+            'routes' => [
+                
+            ]
         ]
     ];
 
     private $templateArr = [
-        'text' => ['price', 'short'],
+        'text' => ['price', 'short', 'name'],
         'textarea' => ['goods_content']
         ];
 
